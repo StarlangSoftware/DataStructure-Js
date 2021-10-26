@@ -1,5 +1,5 @@
 import * as assert from "assert";
-import {LRUCache} from "../source/LRUCache";
+import {LRUCache} from "../dist/LRUCache";
 
 describe('LRUCacheTest', function() {
     describe('LRUCacheTest', function() {

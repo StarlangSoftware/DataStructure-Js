@@ -1,4 +1,4 @@
-import {CounterHashMap} from "../source/CounterHashMap";
+import {CounterHashMap} from "../dist/CounterHashMap";
 import * as assert from "assert";
 
 describe('CounterHashMapTest', function() {
