@@ -1,6 +1,6 @@
 {
   "name": "nlptoolkit-datastructure",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple Data Structures Library",
   "main": "index.js",
   "types": "index.js",
