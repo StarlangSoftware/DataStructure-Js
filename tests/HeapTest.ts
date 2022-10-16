@@ -4,11 +4,8 @@ import {MinHeap} from "../dist/heap/MinHeap";
 
 describe('HeapTest', function() {
     describe('HeapTest', function() {
-        function compare<T>(item1: T, item2: T): number {
-            if (typeof item1 == "number" && typeof item2 == "number"){
-                return item1 - item2
-            }
-            return 0
+        function compare(item1: number, item2: number): number {
+            return item1 - item2
         }
         it('testMaxHeap', function() {
             let maxHeap : MaxHeap<number> = new MaxHeap<number>(8, compare)

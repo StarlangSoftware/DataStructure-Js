@@ -3,11 +3,11 @@ import {HeapNode} from "./HeapNode";
 export class Heap<T> {
 
     private readonly array: Array<HeapNode<T>>
-    protected comparator : <T>(item1: T, item2: T) => number
+    protected comparator : (item1: T, item2: T) => number
     private count: number
     private n: number
 
-    constructor(N: number, comparator: <T>(item1: T, item2: T) => number){
+    constructor(N: number, comparator: (item1: T, item2: T) => number){
         this.comparator = comparator
         this.array = new Array<HeapNode<T>>()
         this.count = 0
