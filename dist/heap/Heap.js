@@ -16,6 +16,7 @@
             this.comparator = comparator;
             this.array = new Array();
             this.count = 0;
+            this.n = N;
             for (let i = 0; i < N; i++) {
                 this.array.push();
             }
@@ -64,7 +65,9 @@
             return tmp.getData();
         }
         insert(data) {
-            this.count = this.count + 1;
+            if (this.count < this.n) {
+                this.count = this.count + 1;
+            }
             this.array[this.count - 1] = new HeapNode_1.HeapNode(data);
             this.percolateUp(this.count - 1);
         }

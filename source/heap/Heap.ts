@@ -5,11 +5,13 @@ export class Heap<T> {
     private readonly array: Array<HeapNode<T>>
     protected comparator : <T>(item1: T, item2: T) => number
     private count: number
+    private n: number
 
     constructor(N: number, comparator: <T>(item1: T, item2: T) => number){
         this.comparator = comparator
         this.array = new Array<HeapNode<T>>()
         this.count = 0
+        this.n = N
         for (let i = 0; i < N; i++){
             this.array.push()
         }
@@ -64,7 +66,9 @@ export class Heap<T> {
     }
 
     public insert(data: T){
-        this.count = this.count + 1
+        if (this.count < this.n) {
+            this.count = this.count + 1
+        }
         this.array[this.count - 1] = new HeapNode<T>(data)
         this.percolateUp(this.count - 1)
     }
