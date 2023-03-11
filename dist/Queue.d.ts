@@ -6,5 +6,6 @@ export declare class Queue<T> {
     constructor(maxSize: number);
     enqueue(item: T): void;
     dequeue(): T;
+    peek(): T;
     isEmpty(): boolean;
 }

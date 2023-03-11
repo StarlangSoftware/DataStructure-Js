@@ -27,6 +27,9 @@
             this.head = (this.head + 1) % this.maxSize;
             return item;
         }
+        peek() {
+            return this.list[this.head];
+        }
         isEmpty() {
             return this.head == this.tail;
         }

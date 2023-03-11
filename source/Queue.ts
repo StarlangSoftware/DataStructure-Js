@@ -23,6 +23,10 @@ export class Queue<T> {
         return item
     }
 
+    public peek(): T{
+        return this.list[this.head]
+    }
+
     public isEmpty(): boolean{
         return this.head == this.tail
     }
