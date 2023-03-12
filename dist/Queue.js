@@ -18,6 +18,11 @@
             this.maxSize = maxSize;
             this.list = new Array(maxSize);
         }
+        enqueueAll(items) {
+            for (let item of items) {
+                this.enqueue(item);
+            }
+        }
         enqueue(item) {
             this.list[this.tail] = item;
             this.tail = (this.tail + 1) % this.maxSize;

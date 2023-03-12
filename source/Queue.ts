@@ -12,6 +12,12 @@ export class Queue<T> {
         this.list = new Array<T>(maxSize)
     }
 
+    public enqueueAll(items: Array<T>){
+        for (let item of items){
+            this.enqueue(item)
+        }
+    }
+
     public enqueue(item: T){
         this.list[this.tail] = item
         this.tail = (this.tail + 1) % this.maxSize
