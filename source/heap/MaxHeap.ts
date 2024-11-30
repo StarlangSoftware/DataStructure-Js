@@ -1,5 +1,4 @@
 import {Heap} from "./Heap";
-import {HeapNode} from "./HeapNode";
 
 export class MaxHeap<T> extends Heap<T>{
 
