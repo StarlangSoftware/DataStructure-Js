@@ -1,12 +1,9 @@
 {
   "name": "nlptoolkit-datastructure",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Simple Data Structures Library",
-  "main": "index.js",
-  "types": "index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "Mocha"
   },
