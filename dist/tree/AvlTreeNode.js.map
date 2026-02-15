@@ -1,1 +1,1 @@
-{"version":3,"file":"AvlTreeNode.js","sourceRoot":"","sources":["../../source/tree/AvlTreeNode.ts"],"names":[],"mappings":";;;;;;;;;;;;IAAA,yCAAoC;IAEpC,MAAa,WAAe,SAAQ,mBAAW;QAI3C,YAAa,IAAO;YAChB,KAAK,CAAC,IAAI,CAAC,CAAA;YACX,IAAI,CAAC,MAAM,GAAG,CAAC,CAAA;QACnB,CAAC;KAEJ;IATD,kCASC"}
+{"version":3,"file":"AvlTreeNode.js","sourceRoot":"","sources":["../../source/tree/AvlTreeNode.ts"],"names":[],"mappings":";;;AAAA,yCAAoC;AAEpC,MAAa,WAAe,SAAQ,mBAAW;IAE3C,MAAM,CAAS;IAEf,YAAa,IAAO;QAChB,KAAK,CAAC,IAAI,CAAC,CAAA;QACX,IAAI,CAAC,MAAM,GAAG,CAAC,CAAA;IACnB,CAAC;CAEJ;AATD,kCASC"}

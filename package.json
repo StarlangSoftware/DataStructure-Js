@@ -1,6 +1,6 @@
 {
   "name": "nlptoolkit-datastructure",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Simple Data Structures Library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,8 +19,9 @@
   "homepage": "https://github.com/StarlangSoftware/DataStructure-Js#readme",
   "devDependencies": {
     "@types/mocha": "^9.0.0",
+    "@types/node": "^25.2.3",
     "mocha": "^9.1.3",
     "ts-node": "^10.4.0",
-    "typescript": "^4.4.4"
+    "typescript": "^5.9.3"
   }
 }
